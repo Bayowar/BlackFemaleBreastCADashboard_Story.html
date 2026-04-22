@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Model Dashboard and Data Story – NIS Black Female Breast Cancer Study</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 20px; background: #fafafa; }
+        .container { max-width: 1300px; margin: 0 auto; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        h1 { color: #1a1a1a; border-bottom: 3px solid #d62828; display: inline-block; padding-bottom: 6px; }
+        .summary { background: #f0f0f0; padding: 16px; border-radius: 8px; margin: 20px 0; }
+        .note { font-size: 0.85rem; color: #555; background: #eef; padding: 10px; border-radius: 6px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1>📖 Breast Cancer Mortality in Black Women – Datastory</h1>
+    
+    <div class="flourish-embed flourish-chart" data-src="story/3646484">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+        <noscript>
+            <img src="https://public.flourish.studio/story/3646484/thumbnail" width="100%" alt="visualization" />
+        </noscript>
+    </div>
+
+    <h1>Breast Cancer Mortality in Black Women – Interactive Model Based Dashboard</h1>
+    <div class="summary">
+        <strong>Executive Summary:</strong> Black women in the US experience disproportionately high breast cancer mortality. This model based dashboard visualizes structural inequity gaps based on data modelling from the 5,934 Black female cancer hospitalizations (2021 NIS) – including in‑hospital mortality rate (5.3%), impact of metastatic disease (OR=2.18), and geographic/structural risk factors.
+    </div>
+
+    
+    <div class='tableauPlaceholder' id='viz1776816804475' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='Breast Cancer Mortality Risk Predictor- NIS 2021' src='https://public.tableau.com/static/images/Bl/BlackFemaleMortalityModel/Dashboard1/1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='BlackFemaleMortalityModel/Dashboard1' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Bl/BlackFemaleMortalityModel/Dashboard1/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1776816804475');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '1720px';
+            vizElement.style.minHeight = '887px';
+            vizElement.style.maxHeight = '987px';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+        } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '1720px';
+            vizElement.style.minHeight = '887px';
+            vizElement.style.maxHeight = '987px';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+        } else {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '1727px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <div class="note">
+        💡 <strong>User instructions:</strong> Hover over data points to see exact values. Use filters (if enabled) to explore by region, age, or socioeconomic strata.
+    </div>
+</div>
+</body>
+</html>
